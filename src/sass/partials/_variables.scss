@@ -1,0 +1,15 @@
+// Your variable overrides
+
+$body-bg: #eee;
+$body-color: #111;
+
+$theme-colors: (
+  "primary": #025a1ff1,
+  "danger": #ff4136,
+  "custom-color": #900
+);
+
+$border-side: 1px solid #e5e5e5;
+// $enable-shadows: 1;
+$enable-border-radius: 1;
+$shadow: 0 .25rem .75rem rgba(3, 1, 1, 0.5);

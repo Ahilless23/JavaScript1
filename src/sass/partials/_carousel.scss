@@ -1,0 +1,37 @@
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+  
+.carousel-item {
+    height: 32rem;
+    & > .img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+        @include background-cover;
+    }
+    &:nth-of-type(1) .img{ 
+        background-image: url(/assets/images/03.jpg); 
+    }
+    &:nth-of-type(2) .img { 
+        background-image: url(/assets/images/02.jpg); 
+    }
+    &:nth-of-type(3) .img { 
+        background-image: url(/assets/images/01.jpg); 
+    }
+}
+  
+@media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+}
+    

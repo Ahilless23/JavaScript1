@@ -1,0 +1,11 @@
+.pt-20 {
+  padding-top: 20px;
+}
+
+.box-shadow {
+  @include card-shadow($shadow);
+  @include round-corners(20px);
+    
+  border-top: $border-side;
+  border-bottom: $border-side; 
+}
