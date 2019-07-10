@@ -1,0 +1,32 @@
+{
+  "name": "html-g14",
+  "version": "1.0.0",
+  "description": "JavaScript Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html --open -p 1234",
+    "build": "parcel build src/*.html --public-url ./",
+    "watch": "parcel watch src/*.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/couchjanus/html-g14.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/couchjanus/html-g14/issues"
+  },
+  "homepage": "https://github.com/couchjanus/html-g14#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.22.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.7"
+  },
+  "keywords": []
+}

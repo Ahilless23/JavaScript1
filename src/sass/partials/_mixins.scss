@@ -1,0 +1,23 @@
+// card-shadow
+
+@mixin card-shadow($shadow...) {
+  @if $enable-shadows {
+    box-shadow: $shadow;
+  }
+}
+
+@mixin round-corners($radius: $border-radius) {
+  @if $enable-border-radius {
+    border-radius: $radius;
+  }
+}
+
+// Background Cover Mixin
+@mixin background-cover {
+  background-color: #777;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

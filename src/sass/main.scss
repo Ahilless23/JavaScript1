@@ -1,0 +1,8 @@
+// src/sass/main.scss
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/mixins";
+@import "~bootstrap/scss/bootstrap";
+
+@import "partials/components";
+@import "partials/carousel";
